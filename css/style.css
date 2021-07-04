@@ -306,10 +306,71 @@ section.demos__itame {
 }
 
 .item__text {
-    padding: 14.9rem;
+    padding: 14.2rem;
     background: #e8e8e8;
 }
 
 .video {
     margin: 30px 0;
+}
+
+section.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.codes {
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+}
+
+.codes1 {
+    background: #515875;
+}
+
+.codes2 {
+    background: #586e9e;
+}
+
+.codes3 {
+    background: #6697b8;
+}
+
+.codes4 {
+    background: #87c4d7;
+}
+
+.codes i {
+    font-size: 58px;
+    color: white;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.codes h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    margin: 32px 0;
+    position: relative;
+}
+
+.codes h2::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 176px;
+    width: 19%;
+    height: 100%;
+    border-bottom: 1px solid #757571;
+}
+
+.codes h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
 }
